@@ -1,0 +1,29 @@
+{
+  "name": "websockets-chat-starter",
+  "version": "1.0.0",
+  "description": "websockets chat",
+  "main": "index.js",
+  "scripts": {
+	"start": "node ./src/server.js",
+	"pretest": "eslint ./src --fix",
+    "test": "echo \"tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChasParr/websockets-chat-starter.git"
+  },
+  "author": "Chas Parr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChasParr/websockets-chat-starter/issues"
+  },
+  "homepage": "https://github.com/ChasParr/websockets-chat-starter#readme",
+  "dependencies": {
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.15.0",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
